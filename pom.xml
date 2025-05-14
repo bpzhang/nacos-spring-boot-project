@@ -8,7 +8,7 @@
         <version>7</version>
     </parent>
     <properties>
-        <revision>3.0.0-ADV</revision>
+        <revision>3.0.1-ADV</revision>
         <maven_javadoc_version>3.0.1</maven_javadoc_version>
         <maven_surefire_version>2.19.1</maven_surefire_version>
         <maven-source-plugin.version>3.1.0</maven-source-plugin.version>
@@ -153,16 +153,6 @@
         </plugins>
     </build>
 
-    <distributionManagement>
-        <snapshotRepository>
-            <!-- 这里的ID一定要在maven setting文件中存在于server下的ID -->
-            <id>sona</id>
-            <url>https://oss.sonatype.org/content/repositories/snapshots/</url>
-        </snapshotRepository>
-        <repository>
-            <id>sona</id>
-            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
-        </repository>
-    </distributionManagement>
+
 
 </project>
